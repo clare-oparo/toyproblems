@@ -1,4 +1,4 @@
-function grade(marks){
+function grade(marks){ //list the grading scheme
     if (marks >= 79 && marks <= 100) {
         return "A"
     }
@@ -21,6 +21,6 @@ function grade(marks){
     else {return "please enter a valid mark"}
 
 }
-
+//example
 console.log(grade(100));
 
