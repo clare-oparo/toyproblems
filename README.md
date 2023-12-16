@@ -1,26 +1,56 @@
-Prerequisites: 
+README for JavaScript Challenges
 
-1. Create a repository on your GitHub account. 
+PREREQUISITES
 
-NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
+Before starting the challenges, ensure to have completed the following steps:
 
-2. Use JavaScript to wire down the solution.
+1. Create a Repository on GitHub:
+- Set up a new repository on GitHub.
+- Organize the code in one folder, with separate files for each challenge. Ensure each file  contains only one solution.
 
-3. Push the solution to the above repository once done.
+2. Use JavaScript to implement the solutions for these challenges.
 
-First Challenge
-Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+3. Once the solutions are complete, push them to the GitHub repository.
 
-        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+CHALLENGES
 
-Second Challenge
-Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+1ST Challenge: Grade Calculator
+Objective: Write a function to input student marks and output the corresponding grade.
 
-   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+Details:
 
-Third Challenge
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+Input: Marks between 0 and 100.
+Output: Grade based on the following scale:
+A: Marks > 79
+B: Marks 60 to 79
+C: Marks 50 to 59
+D: Marks 40 to 49
+E: Marks less than 40
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
-- https://www.aren.co.ke/payroll/taxrates.htm 
+2ND Challenge: Speed Checker
+Objective: Create a program to check the speed of a car and issue demerit points if necessary.
+
+Details:
+
+Input: Car speed (e.g., 80 km/h).
+Output:
+Print “Ok” if the speed is less than 70 km/h.
+For speeds above 70 km/h, issue one demerit point for every 5 km/h over the limit.
+Example: At 80 km/h, print “Points: 2”.
+If a driver accumulates more than 12 points, print “License suspended”.
+
+
+3RD Challenge: Net Salary Calculator
+Objective: Write a program to calculate an individual's Net Salary.
+
+Details:
+
+Inputs: Basic Salary and Benefits.
+Outputs: Calculate and display the following:
+- PAYE (Tax)
+- NHIF Deductions
+- NSSF Deductions
+- Gross Salary
+- Net Salary
+Reference for tax rates and deductions: https://www.aren.co.ke/payroll/taxrates.htm 
