@@ -32,11 +32,11 @@ function calculateNetSalary (salary, benefits){
     //calculate nssfRate
 
     const calculateNssf = (monthlyPay) => {
-        if (monthlyPay > 0 && monthlyPay <= 6000 ){
+        if (monthlyPay > 6000 && monthlyPay <= 18000 ){
             return monthlyPay * 0.12 
         }
             
-        else if (monthlyPay >= 6001 && monthlyPay <= 18000){
+        else if (monthlyPay >= 18001) {
             return monthlyPay * 0.12
         }
 
@@ -68,4 +68,4 @@ function calculateNetSalary (salary, benefits){
 
 }
 //example
-console.log(calculateNetSalary(100000, 50000));
+console.log(calculateNetSalary(100000, 20000));
