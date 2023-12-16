@@ -14,7 +14,7 @@ function grade(marks){
         return "D"
     }
 
-    else if (marks>=0 && marks <=39){
+    else if (marks >=0 && marks <= 39){
         return "E"
     }
 
